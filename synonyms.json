@@ -1,0 +1,122 @@
+{
+  "aquaponics": [
+    {
+      "word": "aquaculture",
+      "count": 1
+    }
+  ],
+  "biogas": [
+    {
+      "word": "bio",
+      "count": 2
+    },
+    {
+      "word": "biotechnology",
+      "count": 1
+    },
+    {
+      "word": "biology",
+      "count": 1
+    }
+  ],
+  "biology": [
+    {
+      "word": "bio",
+      "count": 1
+    },
+    {
+      "word": "biogas",
+      "count": 1
+    }
+  ],
+  "fishing": [
+    {
+      "word": "fish",
+      "count": 1
+    }
+  ],
+  "home": [],
+  "science": [
+    {
+      "word": "scientific",
+      "count": 2
+    },
+    {
+      "word": "scientist",
+      "count": 1
+    }
+  ],
+  "scientific calculator": [
+    {
+      "word": "science",
+      "count": 5
+    },
+    {
+      "word": "scientific",
+      "count": 2
+    },
+    {
+      "word": "scientist",
+      "count": 1
+    }
+  ],
+  "blue bot": [
+    {
+      "word": "blue",
+      "count": 1
+    }
+  ],
+  "otto ninja bot": [
+    {
+      "word": "ottobot",
+      "count": 2
+    },
+    {
+      "word": "rotting",
+      "count": 1
+    }
+  ],
+  "work": [
+    {
+      "word": "network",
+      "count": 1
+    },
+    {
+      "word": "world",
+      "count": 1
+    }
+  ],
+  "coding": [],
+  "python": [],
+  "random": [
+    {
+      "word": "branch",
+      "count": 1
+    }
+  ],
+  "raspberry pi": [
+    {
+      "word": "raspberry",
+      "count": 1
+    }
+  ],
+  "first hello world": [
+    {
+      "word": "first",
+      "count": 2
+    }
+  ],
+  "mushroom cultivation": [
+    {
+      "word": "mushroom",
+      "count": 2
+    }
+  ],
+  "mycelium application": [
+    {
+      "word": "mycelium",
+      "count": 2
+    }
+  ],
+  "mycelium": []
+}

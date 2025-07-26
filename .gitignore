@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+public/bundle.js
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Electron cache or packaging artifacts
+*.asar
+out/
