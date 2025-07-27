@@ -1,7 +1,6 @@
 # 🧠 Mycelium
 
-**Mycelium** is a local-first, Markdown-based knowledge graph and note-taking app built with Electron and React.  
-Inspired by the way mycelium networks connect information organically, this app helps you visualize and grow your notes like a living system.
+**Mycelium** is a privacy-focused, Markdown-based knowledge graph and note-taking app built with Electron and React that stores your notes locally by default. Inspired by the way mycelium networks connect information organically, this app helps you visualize and grow your notes like a living system.
 
 <img width="1917" height="1019" alt="Screenshot 2025-07-27 192255" src="https://github.com/user-attachments/assets/ed7b3a15-c92c-414f-aa5f-db6e1e95979f" />
 ---
