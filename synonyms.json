@@ -2,13 +2,17 @@
   "aquaponics": [
     {
       "word": "aquaculture",
+      "count": 9
+    },
+    {
+      "word": "aquatic",
       "count": 1
     }
   ],
   "biogas": [
     {
       "word": "bio",
-      "count": 2
+      "count": 18
     },
     {
       "word": "biotechnology",
@@ -22,24 +26,28 @@
   "biology": [
     {
       "word": "bio",
-      "count": 1
+      "count": 9
     },
     {
       "word": "biogas",
+      "count": 1
+    },
+    {
+      "word": "biotechnology",
       "count": 1
     }
   ],
   "fishing": [
     {
       "word": "fish",
-      "count": 1
+      "count": 9
     }
   ],
   "home": [],
   "science": [
     {
       "word": "scientific",
-      "count": 2
+      "count": 10
     },
     {
       "word": "scientist",
@@ -49,11 +57,11 @@
   "scientific calculator": [
     {
       "word": "science",
-      "count": 5
+      "count": 45
     },
     {
       "word": "scientific",
-      "count": 2
+      "count": 10
     },
     {
       "word": "scientist",
@@ -69,21 +77,25 @@
   "otto ninja bot": [
     {
       "word": "ottobot",
-      "count": 2
+      "count": 10
     },
     {
       "word": "rotting",
+      "count": 9
+    },
+    {
+      "word": "otto",
       "count": 1
     }
   ],
   "work": [
     {
       "word": "network",
-      "count": 1
+      "count": 9
     },
     {
       "word": "world",
-      "count": 1
+      "count": 9
     }
   ],
   "coding": [],
@@ -91,7 +103,7 @@
   "random": [
     {
       "word": "branch",
-      "count": 1
+      "count": 9
     }
   ],
   "raspberry pi": [
@@ -103,20 +115,64 @@
   "first hello world": [
     {
       "word": "first",
-      "count": 2
+      "count": 18
     }
   ],
   "mushroom cultivation": [
     {
       "word": "mushroom",
-      "count": 2
+      "count": 18
     }
   ],
   "mycelium application": [
     {
       "word": "mycelium",
+      "count": 18
+    }
+  ],
+  "mycelium": [],
+  "cars": [
+    {
+      "word": "car",
       "count": 2
     }
   ],
-  "mycelium": []
+  "testing new note": [
+    {
+      "word": "test",
+      "count": 4
+    },
+    {
+      "word": "testing",
+      "count": 1
+    }
+  ],
+  "testing": [
+    {
+      "word": "test",
+      "count": 1
+    }
+  ],
+  "save note": [
+    {
+      "word": "saving",
+      "count": 1
+    },
+    {
+      "word": "save",
+      "count": 1
+    }
+  ],
+  "new note testing": [
+    {
+      "word": "new",
+      "count": 2
+    }
+  ],
+  "new note": [
+    {
+      "word": "new",
+      "count": 1
+    }
+  ]
 }

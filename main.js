@@ -53,6 +53,7 @@ ipcMain.handle('get-markdown-files', async (_, folderPath) => {
   }
 });
 
+
 ipcMain.handle('read-markdown-file', async (event, filePath) => {
   try {
     return fs.readFileSync(filePath, 'utf8');
@@ -70,6 +71,7 @@ ipcMain.handle('save-markdown-file', async (event, filePath, content) => {
     throw err;
   }
 });
+
 
 ipcMain.handle('delete-markdown-file', async (event, filePath) => {
   try {

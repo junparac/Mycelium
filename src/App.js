@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef  } from 'react';
 import './styles.css';
 import GraphView from './GraphView';
 import extractLinkedTitles from './extractLinkedTitles';
@@ -9,42 +9,49 @@ function App() {
   const [selectedNote, setSelectedNote] = useState(null);
   const [text, setText] = useState('');
   const [noteTitle, setNoteTitle] = useState('');
-
+  const [newNoteTitle, setNewNoteTitle] = useState('');
+  const [editorText, setEditorText] = useState('');
   const [nodeArray, setNodeArray] = useState([]);
   const [links, setLinks] = useState([]);
+  const [synonyms, setSynonyms] = useState({});
 
-  const extractLinkedTitles = (content) => {
-    const linkPattern = /\[\[([^\]]+)\]\]/g;
-    const matches = [...content.matchAll(linkPattern)];
-    return matches.map(match => match[1].trim());
-  };
+// Load synonyms once, e.g. on vault open or app start
+useEffect(() => {
+  window.electronAPI.loadSynonyms()
+    .then(loadedSynonyms => setSynonyms(loadedSynonyms || {}));
+}, []);
 
-  const buildGraph = (files, vaultPath) => {
-    const nodes = [];
-    const links = [];
+// Updated buildGraph
+const buildGraph = async (files, vaultPath) => {
+  const nodes = files.map(file => ({ id: file.replace(/\.md$/, '') }));
+  const noteTitles = nodes.map(n => n.id);
 
-    files.forEach(file => {
-      const title = file.replace(/\.md$/, '');
-      nodes.push({ id: title });
+  const links = [];
+
+  const contents = await Promise.all(
+    files.map(file => window.electronAPI.readMarkdownFile(`${vaultPath}/${file}`))
+  );
+
+  for (let i = 0; i < files.length; i++) {
+    const fromTitle = noteTitles[i];
+    const content = contents[i];
+
+    // Call your async extractLinkedTitles with synonyms
+    const linkedTitles = await extractLinkedTitles(content, noteTitles, synonyms);
+
+    linkedTitles.forEach(toTitle => {
+      if (toTitle !== fromTitle && noteTitles.includes(toTitle)) {
+        links.push({ source: fromTitle, target: toTitle });
+      }
     });
+  }
 
-    files.forEach(async (file) => {
-      const fullPath = `${vaultPath}/${file}`;
-      const content = await window.electronAPI.readMarkdownFile(fullPath);
-      const fromTitle = file.replace(/\.md$/, '');
-      const linkedTitles = extractLinkedTitles(content);
+  setNodeArray(nodes);
+  setLinks(links);
 
-      linkedTitles.forEach(toTitle => {
-        if (toTitle !== fromTitle && files.includes(`${toTitle}.md`)) {
-          links.push({ source: fromTitle, target: toTitle });
-        }
-      });
-
-      // Wait for all async ops to complete before updating state
-      setNodeArray(nodes);
-      setLinks([...links]); // new array to trigger re-render
-    });
-  };
+  // Save synonyms after build (optional, if extractLinkedTitles auto-learns)
+  window.electronAPI.saveSynonyms(synonyms);
+};
 
     const handleOpenVault = async () => {
       try {
@@ -83,6 +90,7 @@ function App() {
     }
   }, [selectedNote, vaultPath]);
 
+
   const handleSave = async () => {
     if (!noteTitle || !vaultPath) return;
     const filename = `${noteTitle}.md`;
@@ -94,6 +102,34 @@ function App() {
     }
     setSelectedNote(filename);
     buildGraph([...noteFiles, filename], vaultPath);
+  };
+
+
+
+const handleNewNote = () => {
+  if (!vaultPath) {
+    alert('Please open a vault folder first!');
+    return;
+  }
+
+  setText('');
+  setNoteTitle('');
+  setSelectedNote(null);
+};
+
+
+
+  const handleSaveNote = async () => {
+    if (!vaultPath || !selectedNote) return;
+
+    const filePath = path.join(vaultPath, selectedNote.title);
+
+    try {
+      await window.electronAPI.saveMarkdownFile(filePath, updatedText);
+      // Optionally reload the vault or update the note list if needed
+    } catch (err) {
+      console.error('Failed to save note:', err);
+    }
   };
 
   const handleDelete = async () => {
@@ -118,6 +154,7 @@ function App() {
       <div className="content">
         <aside className="sidebar">
           <h2>Notes</h2>
+           <button onClick={handleNewNote}>➕ New Note</button>
           <ul>
             {noteFiles.map(file => (
               <li
@@ -145,7 +182,9 @@ function App() {
           />
           <div className="actions">
             <button onClick={handleSave}>💾 Save</button>
+            <button onClick={handleNewNote}>📝 New Note</button>
             <button onClick={handleDelete} disabled={!selectedNote}>🗑️ Delete</button>
+
           </div>
         </main>
 
