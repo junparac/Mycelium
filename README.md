@@ -8,14 +8,23 @@
 ## ✨ Features
 
 📁 Vault system to organize Markdown files by folder
+
 📝 Built-in Markdown editor with real-time save support
+
 🧩 Advanced bi-directional linking with smart synonym and pattern detection (beyond simple [[NoteName]])
+
 🕸️ Interactive, zoomable, and draggable graph view powered by force-graph-2d
+
 🔗 Synonym support for enhanced note discovery and link expansion
+
 🔄 Auto-link detection and dynamic graph building across notes
+
 🗂 Sidebar for quick navigation between notes
+
 ➕ New Note creation with title input and editor reset
+
 🗑️ File operations: create, save, delete markdown notes
+
 ⚡ Smooth UX improvements including auto focus and error handling
 
 
