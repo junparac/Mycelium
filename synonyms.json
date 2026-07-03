@@ -1,0 +1,1884 @@
+{
+  "aquaponics": [
+    {
+      "word": "aquaculture",
+      "count": 301
+    },
+    {
+      "word": "aquatic",
+      "count": 1
+    },
+    {
+      "word": "aquaponics",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "biogas": [
+    {
+      "word": "bio",
+      "count": 605
+    },
+    {
+      "word": "biotechnology",
+      "count": 1
+    },
+    {
+      "word": "biology",
+      "count": 1
+    },
+    {
+      "word": "biogas",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "bios",
+      "count": 1
+    },
+    {
+      "word": "bios",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "biology": [
+    {
+      "word": "bio",
+      "count": 485
+    },
+    {
+      "word": "biogas",
+      "count": 1
+    },
+    {
+      "word": "biotechnology",
+      "count": 1
+    },
+    {
+      "word": "biology",
+      "count": 247,
+      "fuzzy": true
+    },
+    {
+      "word": "zoology",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "ecology",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "bios",
+      "count": 1
+    }
+  ],
+  "fishing": [
+    {
+      "word": "fish",
+      "count": 301
+    },
+    {
+      "word": "triggerfish",
+      "count": 1
+    },
+    {
+      "word": "fishing",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "finding",
+      "count": 99,
+      "fuzzy": true
+    },
+    {
+      "word": "missing",
+      "count": 15,
+      "fuzzy": true
+    }
+  ],
+  "home": [
+    {
+      "word": "home",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "have",
+      "count": 449,
+      "fuzzy": true
+    },
+    {
+      "word": "same",
+      "count": 289,
+      "fuzzy": true
+    },
+    {
+      "word": "role",
+      "count": 206,
+      "fuzzy": true
+    },
+    {
+      "word": "here",
+      "count": 460,
+      "fuzzy": true
+    },
+    {
+      "word": "how",
+      "count": 174,
+      "fuzzy": true
+    },
+    {
+      "word": "none",
+      "count": 191,
+      "fuzzy": true
+    },
+    {
+      "word": "note",
+      "count": 280,
+      "fuzzy": true
+    },
+    {
+      "word": "html",
+      "count": 182,
+      "fuzzy": true
+    },
+    {
+      "word": "chrome",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "node",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "more",
+      "count": 126,
+      "fuzzy": true
+    },
+    {
+      "word": "time",
+      "count": 282,
+      "fuzzy": true
+    },
+    {
+      "word": "code",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "one",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "com",
+      "count": 125,
+      "fuzzy": true
+    },
+    {
+      "word": "hum",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "some",
+      "count": 106,
+      "fuzzy": true
+    },
+    {
+      "word": "love",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hot",
+      "count": 19,
+      "fuzzy": true
+    },
+    {
+      "word": "core",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "those",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "came",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "move",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hope",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "cove",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hotel",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hometown",
+      "count": 1
+    },
+    {
+      "word": "hook",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "mode",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "science": [
+    {
+      "word": "scientific",
+      "count": 143
+    },
+    {
+      "word": "scientist",
+      "count": 1
+    },
+    {
+      "word": "science",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "since",
+      "count": 104,
+      "fuzzy": true
+    }
+  ],
+  "scientific calculator": [
+    {
+      "word": "science",
+      "count": 1361
+    },
+    {
+      "word": "scientific",
+      "count": 136
+    },
+    {
+      "word": "scientist",
+      "count": 1
+    }
+  ],
+  "blue bot": [
+    {
+      "word": "blue",
+      "count": 82
+    }
+  ],
+  "otto ninja bot": [
+    {
+      "word": "ottobot",
+      "count": 300
+    },
+    {
+      "word": "rotting",
+      "count": 299
+    },
+    {
+      "word": "otto",
+      "count": 1
+    },
+    {
+      "word": "motto",
+      "count": 80
+    }
+  ],
+  "work": [
+    {
+      "word": "network",
+      "count": 673
+    },
+    {
+      "word": "world",
+      "count": 302
+    },
+    {
+      "word": "for",
+      "count": 1775,
+      "fuzzy": true
+    },
+    {
+      "word": "work",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "wood",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "form",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "word",
+      "count": 1
+    },
+    {
+      "word": "word",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "framework",
+      "count": 183
+    },
+    {
+      "word": "more",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "wont",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "20network",
+      "count": 23
+    },
+    {
+      "word": "worlds",
+      "count": 1
+    },
+    {
+      "word": "lock",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "frameworks",
+      "count": 1
+    },
+    {
+      "word": "took",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "worthy",
+      "count": 1
+    },
+    {
+      "word": "networks",
+      "count": 1
+    },
+    {
+      "word": "words",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "mark",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "core",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "look",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "warn",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "working",
+      "count": 1
+    },
+    {
+      "word": "keyword",
+      "count": 1
+    },
+    {
+      "word": "keywords",
+      "count": 1
+    },
+    {
+      "word": "works",
+      "count": 1
+    },
+    {
+      "word": "works",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hook",
+      "count": 17,
+      "fuzzy": true
+    },
+    {
+      "word": "worked",
+      "count": 1
+    },
+    {
+      "word": "ook",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "workaround",
+      "count": 1
+    }
+  ],
+  "coding": [
+    {
+      "word": "coding",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "casing",
+      "count": 208,
+      "fuzzy": true
+    },
+    {
+      "word": "code",
+      "count": 410
+    },
+    {
+      "word": "adding",
+      "count": 4,
+      "fuzzy": true
+    },
+    {
+      "word": "crying",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "decodeuricomponent",
+      "count": 15
+    },
+    {
+      "word": "going",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "loading",
+      "count": 10,
+      "fuzzy": true
+    }
+  ],
+  "python": [
+    {
+      "word": "python",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "executepythonscript",
+      "count": 1
+    },
+    {
+      "word": "pyttsx3",
+      "count": 1
+    }
+  ],
+  "random": [
+    {
+      "word": "branch",
+      "count": 301
+    },
+    {
+      "word": "transformers",
+      "count": 199
+    },
+    {
+      "word": "transformer",
+      "count": 108
+    },
+    {
+      "word": "transforms",
+      "count": 1
+    },
+    {
+      "word": "transmission",
+      "count": 96
+    },
+    {
+      "word": "transform",
+      "count": 80
+    },
+    {
+      "word": "transparent",
+      "count": 1
+    },
+    {
+      "word": "transforming",
+      "count": 1
+    },
+    {
+      "word": "granted",
+      "count": 62
+    }
+  ],
+  "raspberry pi": [
+    {
+      "word": "raspberry",
+      "count": 1
+    },
+    {
+      "word": "embarrassment",
+      "count": 99
+    },
+    {
+      "word": "cameras",
+      "count": 126
+    }
+  ],
+  "first hello world": [
+    {
+      "word": "first",
+      "count": 828
+    },
+    {
+      "word": "firstmate",
+      "count": 1
+    },
+    {
+      "word": "fire",
+      "count": 114
+    }
+  ],
+  "mushroom cultivation": [
+    {
+      "word": "mushroom",
+      "count": 600
+    }
+  ],
+  "mycelium application": [
+    {
+      "word": "mycelium",
+      "count": 273
+    }
+  ],
+  "mycelium": [
+    {
+      "word": "mycelium",
+      "count": 25,
+      "fuzzy": true
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    },
+    {
+      "word": "mycelia",
+      "count": 8
+    },
+    {
+      "word": "mycelia",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "cars": [
+    {
+      "word": "car",
+      "count": 66
+    }
+  ],
+  "testing new note": [
+    {
+      "word": "test",
+      "count": 111
+    },
+    {
+      "word": "testing",
+      "count": 1
+    }
+  ],
+  "testing": [
+    {
+      "word": "test",
+      "count": 67
+    },
+    {
+      "word": "testable",
+      "count": 1
+    },
+    {
+      "word": "testing",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "notes",
+      "count": 43
+    },
+    {
+      "word": "eating",
+      "count": 15,
+      "fuzzy": true
+    }
+  ],
+  "save note": [
+    {
+      "word": "saving",
+      "count": 17
+    },
+    {
+      "word": "save",
+      "count": 1
+    }
+  ],
+  "new note testing": [
+    {
+      "word": "new",
+      "count": 18
+    }
+  ],
+  "new note": [
+    {
+      "word": "new",
+      "count": 1
+    }
+  ],
+  "caught fish": [
+    {
+      "word": "caught",
+      "count": 314
+    },
+    {
+      "word": "because",
+      "count": 97
+    }
+  ],
+  "carpool": [
+    {
+      "word": "car",
+      "count": 64
+    }
+  ],
+  "test": [
+    {
+      "word": "testing",
+      "count": 1
+    },
+    {
+      "word": "less",
+      "count": 14,
+      "fuzzy": true
+    },
+    {
+      "word": "that",
+      "count": 98,
+      "fuzzy": true
+    },
+    {
+      "word": "these",
+      "count": 28,
+      "fuzzy": true
+    },
+    {
+      "word": "testable",
+      "count": 1
+    },
+    {
+      "word": "bert",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "tech",
+      "count": 27,
+      "fuzzy": true
+    },
+    {
+      "word": "notes",
+      "count": 28
+    },
+    {
+      "word": "text",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "past",
+      "count": 8,
+      "fuzzy": true
+    },
+    {
+      "word": "test",
+      "count": 85,
+      "fuzzy": true
+    },
+    {
+      "word": "just",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "wife": [
+    {
+      "word": "side",
+      "count": 309,
+      "fuzzy": true
+    },
+    {
+      "word": "life",
+      "count": 971,
+      "fuzzy": true
+    },
+    {
+      "word": "like",
+      "count": 1575,
+      "fuzzy": true
+    },
+    {
+      "word": "with",
+      "count": 357,
+      "fuzzy": true
+    },
+    {
+      "word": "while",
+      "count": 211,
+      "fuzzy": true
+    },
+    {
+      "word": "mine",
+      "count": 211,
+      "fuzzy": true
+    },
+    {
+      "word": "wife",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "will",
+      "count": 82,
+      "fuzzy": true
+    },
+    {
+      "word": "site",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "lie",
+      "count": 203,
+      "fuzzy": true
+    },
+    {
+      "word": "time",
+      "count": 273,
+      "fuzzy": true
+    },
+    {
+      "word": "nice",
+      "count": 4,
+      "fuzzy": true
+    },
+    {
+      "word": "wifi",
+      "count": 125
+    },
+    {
+      "word": "wifi",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "live",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "file",
+      "count": 32,
+      "fuzzy": true
+    },
+    {
+      "word": "write",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "fire",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "wfh",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "white",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "dive",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "size",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "testing again": [
+    {
+      "word": "testable",
+      "count": 200
+    },
+    {
+      "word": "notes",
+      "count": 745
+    },
+    {
+      "word": "test",
+      "count": 398
+    },
+    {
+      "word": "testing",
+      "count": 1
+    },
+    {
+      "word": "latest",
+      "count": 9
+    },
+    {
+      "word": "webcam_test",
+      "count": 1
+    },
+    {
+      "word": "updates",
+      "count": 1
+    },
+    {
+      "word": "contributes",
+      "count": 1
+    },
+    {
+      "word": "demonstrates",
+      "count": 1
+    },
+    {
+      "word": "test_ai_video",
+      "count": 1
+    }
+  ],
+  "test2": [
+    {
+      "word": "testable",
+      "count": 6
+    },
+    {
+      "word": "text",
+      "count": 6,
+      "fuzzy": true
+    }
+  ],
+  "sentence transformer": [
+    {
+      "word": "sense",
+      "count": 446
+    },
+    {
+      "word": "sentence",
+      "count": 108
+    },
+    {
+      "word": "sentences",
+      "count": 1
+    },
+    {
+      "word": "sends",
+      "count": 141
+    },
+    {
+      "word": "sensor_data",
+      "count": 1
+    },
+    {
+      "word": "represents",
+      "count": 99
+    },
+    {
+      "word": "sensors",
+      "count": 81
+    },
+    {
+      "word": "sensor",
+      "count": 1
+    },
+    {
+      "word": "send",
+      "count": 15
+    },
+    {
+      "word": "sensing",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor",
+      "count": 1
+    },
+    {
+      "word": "senses",
+      "count": 1
+    },
+    {
+      "word": "sending",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor_data",
+      "count": 1
+    }
+  ],
+  "junrey": [
+    {
+      "word": "junrey",
+      "count": 670,
+      "fuzzy": true
+    },
+    {
+      "word": "junreybuilds",
+      "count": 1
+    },
+    {
+      "word": "juni",
+      "count": 7
+    },
+    {
+      "word": "june",
+      "count": 141
+    },
+    {
+      "word": "june",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "flask api": [
+    {
+      "word": "flatten",
+      "count": 193
+    },
+    {
+      "word": "flask",
+      "count": 616
+    },
+    {
+      "word": "flag",
+      "count": 8
+    },
+    {
+      "word": "flags",
+      "count": 1
+    }
+  ],
+  "me": [
+    {
+      "word": "farmed",
+      "count": 191
+    },
+    {
+      "word": "the",
+      "count": 2608,
+      "fuzzy": true
+    },
+    {
+      "word": "same",
+      "count": 1
+    },
+    {
+      "word": "made",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "are",
+      "count": 9,
+      "fuzzy": true
+    },
+    {
+      "word": "home",
+      "count": 384
+    },
+    {
+      "word": "home",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "mine",
+      "count": 191,
+      "fuzzy": true
+    },
+    {
+      "word": "fundamental",
+      "count": 1
+    },
+    {
+      "word": "meaning",
+      "count": 1
+    },
+    {
+      "word": "use",
+      "count": 563,
+      "fuzzy": true
+    },
+    {
+      "word": "few",
+      "count": 189,
+      "fuzzy": true
+    },
+    {
+      "word": "arithmetic",
+      "count": 25
+    },
+    {
+      "word": "she",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "lie",
+      "count": 189,
+      "fuzzy": true
+    },
+    {
+      "word": "transformers",
+      "count": 1
+    },
+    {
+      "word": "someone",
+      "count": 191
+    },
+    {
+      "word": "medicinal",
+      "count": 1
+    },
+    {
+      "word": "environments",
+      "count": 1
+    },
+    {
+      "word": "make",
+      "count": 2,
+      "fuzzy": true
+    },
+    {
+      "word": "trigonometric",
+      "count": 1
+    },
+    {
+      "word": "framework",
+      "count": 1
+    },
+    {
+      "word": "transformer",
+      "count": 1
+    },
+    {
+      "word": "chrome",
+      "count": 1
+    },
+    {
+      "word": "web",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "runtime",
+      "count": 1
+    },
+    {
+      "word": "environment",
+      "count": 1
+    },
+    {
+      "word": "time",
+      "count": 223
+    },
+    {
+      "word": "more",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "one",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "new",
+      "count": 15,
+      "fuzzy": true
+    },
+    {
+      "word": "timestamp",
+      "count": 1
+    },
+    {
+      "word": "development",
+      "count": 1
+    },
+    {
+      "word": "documents",
+      "count": 1
+    },
+    {
+      "word": "somewhere",
+      "count": 1
+    },
+    {
+      "word": "let",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "something",
+      "count": 1
+    },
+    {
+      "word": "some",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "commercial",
+      "count": 1
+    },
+    {
+      "word": "frameworks",
+      "count": 1
+    },
+    {
+      "word": "awesome",
+      "count": 1
+    },
+    {
+      "word": "become",
+      "count": 1
+    },
+    {
+      "word": "management",
+      "count": 1
+    },
+    {
+      "word": "extreme",
+      "count": 1
+    },
+    {
+      "word": "mean",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "melting",
+      "count": 1
+    },
+    {
+      "word": "eye",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "embarrassment",
+      "count": 1
+    },
+    {
+      "word": "red",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "agreement",
+      "count": 1
+    },
+    {
+      "word": "tea",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "acknowledgment",
+      "count": 1
+    },
+    {
+      "word": "mix",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "excitement",
+      "count": 1
+    },
+    {
+      "word": "achievement",
+      "count": 1
+    },
+    {
+      "word": "experiments",
+      "count": 1
+    },
+    {
+      "word": "document",
+      "count": 1
+    },
+    {
+      "word": "came",
+      "count": 1
+    },
+    {
+      "word": "ate",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "move",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "memory",
+      "count": 1
+    },
+    {
+      "word": "becomes",
+      "count": 1
+    },
+    {
+      "word": "remembering",
+      "count": 1
+    },
+    {
+      "word": "emerge",
+      "count": 1
+    },
+    {
+      "word": "members",
+      "count": 1
+    },
+    {
+      "word": "environmental",
+      "count": 1
+    },
+    {
+      "word": "cameras",
+      "count": 1
+    },
+    {
+      "word": "measures",
+      "count": 1
+    },
+    {
+      "word": "remembers",
+      "count": 1
+    },
+    {
+      "word": "remember",
+      "count": 1
+    },
+    {
+      "word": "parameters",
+      "count": 1
+    },
+    {
+      "word": "documentation",
+      "count": 1
+    },
+    {
+      "word": "names",
+      "count": 1
+    },
+    {
+      "word": "welcome",
+      "count": 1
+    },
+    {
+      "word": "see",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "environment_sensor",
+      "count": 1
+    },
+    {
+      "word": "may",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "environment_sensor_data",
+      "count": 1
+    },
+    {
+      "word": "dev",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "hometown",
+      "count": 1
+    },
+    {
+      "word": "del",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "set",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "mode",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "per",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "max",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "test note again": [
+    {
+      "word": "testable",
+      "count": 3
+    },
+    {
+      "word": "notes",
+      "count": 3
+    }
+  ],
+  "electron": [
+    {
+      "word": "electronic",
+      "count": 1
+    },
+    {
+      "word": "electronic",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "celebrations",
+      "count": 186
+    },
+    {
+      "word": "selection",
+      "count": 182
+    },
+    {
+      "word": "selection",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "deletion",
+      "count": 4
+    },
+    {
+      "word": "electron",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "releases",
+      "count": 1
+    },
+    {
+      "word": "electronics",
+      "count": 1
+    },
+    {
+      "word": "electronapi",
+      "count": 1
+    },
+    {
+      "word": "wirelessly",
+      "count": 1
+    }
+  ],
+  "arduino": [
+    {
+      "word": "arduino",
+      "count": 542,
+      "fuzzy": true
+    },
+    {
+      "word": "board",
+      "count": 180
+    },
+    {
+      "word": "hardware",
+      "count": 244
+    },
+    {
+      "word": "gardens",
+      "count": 1
+    },
+    {
+      "word": "hard",
+      "count": 3
+    }
+  ],
+  "mycelium app": [
+    {
+      "word": "mycelium",
+      "count": 819
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1,
+      "fuzzy": true
+    },
+    {
+      "word": "mycelia",
+      "count": 8
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    }
+  ],
+  "about mycelium app": [
+    {
+      "word": "about",
+      "count": 593
+    },
+    {
+      "word": "collaborative",
+      "count": 1
+    },
+    {
+      "word": "collaborate",
+      "count": 1
+    }
+  ],
+  "canyon cove": [
+    {
+      "word": "can",
+      "count": 505
+    },
+    {
+      "word": "cant",
+      "count": 1
+    },
+    {
+      "word": "canyon",
+      "count": 1
+    }
+  ],
+  "delete": [
+    {
+      "word": "deli",
+      "count": 3
+    },
+    {
+      "word": "models",
+      "count": 4
+    }
+  ],
+  "testing note": [
+    {
+      "word": "notes",
+      "count": 9
+    },
+    {
+      "word": "testable",
+      "count": 3
+    },
+    {
+      "word": "testing",
+      "count": 3
+    },
+    {
+      "word": "test",
+      "count": 3
+    }
+  ],
+  "test 2": [
+    {
+      "word": "notes",
+      "count": 12
+    },
+    {
+      "word": "testable",
+      "count": 4
+    },
+    {
+      "word": "testing",
+      "count": 13
+    },
+    {
+      "word": "test",
+      "count": 1
+    },
+    {
+      "word": "test",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "new version": [
+    {
+      "word": "new",
+      "count": 197
+    },
+    {
+      "word": "news",
+      "count": 1
+    }
+  ],
+  "new text": [
+    {
+      "word": "new",
+      "count": 7
+    }
+  ],
+  "sensor_data": [
+    {
+      "word": "sense",
+      "count": 276
+    },
+    {
+      "word": "sentence",
+      "count": 221
+    },
+    {
+      "word": "sentences",
+      "count": 1
+    },
+    {
+      "word": "sends",
+      "count": 1
+    },
+    {
+      "word": "sensor_data",
+      "count": 141,
+      "fuzzy": true
+    },
+    {
+      "word": "represents",
+      "count": 99
+    },
+    {
+      "word": "sensors",
+      "count": 81
+    },
+    {
+      "word": "sensor",
+      "count": 1
+    },
+    {
+      "word": "send",
+      "count": 15
+    },
+    {
+      "word": "sensing",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor",
+      "count": 1
+    },
+    {
+      "word": "senses",
+      "count": 1
+    },
+    {
+      "word": "sending",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor_data",
+      "count": 1
+    }
+  ],
+  "face_detection_logs": [
+    {
+      "word": "face",
+      "count": 454
+    },
+    {
+      "word": "refactoring",
+      "count": 113
+    },
+    {
+      "word": "face_reco2",
+      "count": 1
+    },
+    {
+      "word": "faces",
+      "count": 1
+    },
+    {
+      "word": "interface",
+      "count": 108
+    },
+    {
+      "word": "face_reco",
+      "count": 1
+    },
+    {
+      "word": "face_reco_ss",
+      "count": 1
+    },
+    {
+      "word": "surface",
+      "count": 1
+    }
+  ],
+  "mycelia network": [
+    {
+      "word": "mycelium",
+      "count": 696
+    },
+    {
+      "word": "mycelia",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    }
+  ],
+  "emoji lists": [
+    {
+      "word": "emotional",
+      "count": 99
+    },
+    {
+      "word": "emotions",
+      "count": 103
+    },
+    {
+      "word": "memory",
+      "count": 80
+    },
+    {
+      "word": "demonstrates",
+      "count": 1
+    }
+  ],
+  "mycelia network log": [
+    {
+      "word": "mycelium",
+      "count": 724
+    },
+    {
+      "word": "mycelia",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    }
+  ],
+  "mycelium app log": [
+    {
+      "word": "mycelium",
+      "count": 741
+    },
+    {
+      "word": "mycelia",
+      "count": 1
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    }
+  ],
+  "nikolai": [
+    {
+      "word": "niko",
+      "count": 163
+    },
+    {
+      "word": "nikola",
+      "count": 1
+    },
+    {
+      "word": "nikola",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "environment_sensor_data": [
+    {
+      "word": "environment",
+      "count": 135
+    },
+    {
+      "word": "environments",
+      "count": 1
+    },
+    {
+      "word": "environmental",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor_data",
+      "count": 1,
+      "fuzzy": true
+    }
+  ],
+  "environment_sensor_dev_log": [
+    {
+      "word": "environment",
+      "count": 208
+    },
+    {
+      "word": "environments",
+      "count": 1
+    },
+    {
+      "word": "environmental",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor",
+      "count": 1
+    },
+    {
+      "word": "environment_sensor_data",
+      "count": 1
+    }
+  ],
+  "mycelia network dev log": [
+    {
+      "word": "mycelium",
+      "count": 292
+    },
+    {
+      "word": "mycelia",
+      "count": 1
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    }
+  ],
+  "mycelium app dev log": [
+    {
+      "word": "mycelium",
+      "count": 271
+    },
+    {
+      "word": "mycelia",
+      "count": 1
+    },
+    {
+      "word": "myceliumvault",
+      "count": 1
+    },
+    {
+      "word": "mycelial",
+      "count": 1
+    },
+    {
+      "word": "myceliumapp",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+/* src/DeluxePreview.css */
+.deluxe-preview h1 { font-size: 28px; margin: 8px 0; }
+.deluxe-preview h2 { font-size: 22px; margin: 8px 0; }
+.deluxe-preview h3 { font-size: 18px; margin: 6px 0; }
+.deluxe-preview p { line-height: 1.6; }
+.deluxe-preview code { background: #011827; padding: .2rem .4rem; border-radius: 6px; }
+.deluxe-preview pre { background: #021426; padding: 12px; border-radius: 8px; overflow: auto; }
+.deluxe-preview table { border-collapse: collapse; margin: 8px 0; width: 100%; }
+.deluxe-preview th, .deluxe-preview td { border: 1px solid #2d3748; padding: 6px; }
+.deluxe-preview th { background: rgba(255,255,255,0.05); }
+.deluxe-preview blockquote { border-left: 3px solid #7c3aed; padding-left: 10px; color: #cbd5e1; margin: 6px 0; }
+.deluxe-preview li.task-list-item { list-style: none; }
+
+/* Modern Markdown Link Styling */
+.deluxe-preview a {
+  color: #58a6ff; 
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.deluxe-preview a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
