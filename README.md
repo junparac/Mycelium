@@ -1,44 +1,40 @@
 # 🧠 Mycelium
 
-**Mycelium App** is an offline-first desktop knowledge graph and Markdown editor built with Electron, React, Python, and Machine Learning. It is designed as a secure, fully local knowledge management system that combines note-taking with AI-powered capabilities, including semantic search, a custom synonym learning engine, intelligent note discovery, and an offline Retrieval-Augmented Generation (RAG) AI assistant—all running entirely on your own computer.
+Mycelium App is a secure, fully local knowledge management system designed to run entirely on your own hardware. By combining intuitive note-taking with local AI capabilities—including semantic vector search, a custom synonym learning engine, and an offline Retrieval-Augmented Generation (RAG) assistant—your data stays private, permanent, and performant.
 
-Inspired by the way fungal mycelium networks connect and exchange information beneath a forest, Mycelium App helps ideas grow into an interconnected knowledge graph rather than remaining isolated notes.
+Inspired by the way fungal mycelium networks connect and exchange information beneath a forest floor, Mycelium helps isolated notes grow into an interconnected knowledge graph.
 
-Mycelium App serves as the foundation of **Mycelia**, a larger personal ecosystem that integrates AI, IoT devices, computer vision, automation, and future intelligent systems into a unified local platform.
-
----
+🌐 **The Bigger Picture:** Mycelium serves as the foundational data and intelligence layer for Mycelia, a larger upcoming personal ecosystem integrating local AI, IoT monitoring devices, automation, and intelligent edge platforms.
 
 ## 🚀 Core Features
 
 ### 📂 Native Vault Management
-* **Direct File System Access:** Securely point the application to any local directory (`dialog:openVault`) to serve as your note sanctuary.
-* **Full Markdown CRUD:** Create, read, update, and delete Markdown notes instantly via Node's native `fs` module.
-* **Deep OS Integration:** Open your note directories directly in Windows File Explorer or trigger external links natively in your default web browser safely via Electron's `shell` module.
+- **Direct File System Access:** Securely point the application to any local directory (`dialog:openVault`) to serve as your note sanctuary.
+- **Full Markdown CRUD:** Create, read, update, and delete Markdown notes instantly via Node's native `fs` module.
+- **Deep OS Integration:** Open note directories directly in Windows File Explorer or trigger external links natively and safely via Electron's `shell` module.
 
 ### 🧠 Semantic Vector Search (`/search`)
-* **Context over Keywords:** Uses the `all-MiniLM-L6-v2` transformer model to compare the conceptual *meaning* of your search queries against your entire notes library rather than relying on brittle keyword matching.
-* **Mathematical Relevance:** Computes a Cosine Similarity score across your notes to deliver a highly accurate, ranked list of relevant files.
+- **Context over Keywords:** Uses the `all-MiniLM-L6-v2` transformer model to compare the conceptual meaning of your search queries against your entire notes library rather than relying on brittle keyword matching.
+- **Mathematical Relevance:** Computes a Cosine Similarity score across your notes to deliver a highly accurate, ranked list of relevant files.
 
 ### 🤖 Local RAG AI Assistant (`/ask-vault`)
-* **Privacy-First Intelligence:** Connects to **LM Studio** via a local OpenAI-compatible client endpoint. Your personal notes never leave your computer.
-* **Retrieval-Augmented Generation (RAG):** When you ask a question, the backend automatically performs a rapid semantic search, extracts the top 2 most contextually relevant notes, and injects them as factual ground-truth context directly into the AI's prompt instruction.
+- **Privacy-First Intelligence:** Connects to LM Studio via a local OpenAI-compatible client endpoint. Your personal notes never leave your computer.
+- **Retrieval-Augmented Generation (RAG):** When you ask a question, the backend automatically performs a rapid semantic search, extracts the top 2 most contextually relevant notes, and injects them as factual ground-truth context directly into the AI's prompt instruction.
 
 ### 🔀 Custom Synonyms Engine
-* **Keyword Mapping:** Features a dedicated dictionary manager built right into the dashboard interface to map technical terms, abbreviations, or shorthand keys to specific values.
-* **Local Persistence:** Saves custom synonym pairs locally to `synonyms.json` using Electron IPC handles (`save-synonyms` / `load-synonyms`), keeping your search vocabulary persistent across sessions.
+- **Keyword Mapping:** Features a dedicated dictionary manager built right into the dashboard interface to map technical terms, abbreviations, or shorthand keys to specific values.
+- **Local Persistence:** Saves custom synonym pairs locally to `synonyms.json` using Electron IPC handles (`save-synonyms` / `load-synonyms`), keeping your search vocabulary persistent across sessions.
 
 ### 🔊 Bulletproof Native Text-to-Speech
-* **Thread-Safe Speech Synthesis:** Integrates with the native Windows Speech API (`SAPI.SpVoice`). 
-* **Seamless Playback:** Utilizes background thread registration (`pythoncom`) to safely compile and vocalize AI responses aloud without freezing your UI or backend routine.
-
----
+- **Thread-Safe Speech Synthesis:** Integrates with the native Windows Speech API (`SAPI.SpVoice`).
+- **Seamless Playback:** Utilizes background thread registration (`pythoncom`) to safely compile and vocalize AI responses aloud without freezing your UI or backend routine.
 
 ## 🏗️ Architecture & How It Works
 
 The application splits its workload between a high-performance desktop shell and a localized machine learning backend:
 
-1. **Frontend Desktop Shell (Electron & Node.js):** Manages the native OS windows, handles secure Inter-Process Communication (IPC), and performs direct, synchronous CRUD operations on your local Markdown files (`.md`) and configuration files.
-2. **AI & Compute Backend (Python & Flask):** Runs a local micro-service that handles vector embeddings, parses your vault files for semantic similarities, interfaces with your local LLM, and interacts with the native Windows speech subsystem.
+- **Frontend Desktop Shell (Electron & Node.js):** Manages the native OS windows, handles secure Inter-Process Communication (IPC), and performs direct, synchronous CRUD operations on your local Markdown files (`.md`) and configuration files.
+- **AI & Compute Backend (Python & Flask):** Runs a local micro-service that handles vector embeddings, parses your vault files for semantic similarities, interfaces with your local LLM, and interacts with the native Windows speech subsystem.
 
 ```mermaid
 graph TD
@@ -53,77 +49,109 @@ graph TD
     API -->|"Embeddings & Context (RAG)"| ST
     API -->|"Local OpenAI API Protocol"| LM
 ```
----
 
-## 🚀 Getting Started
+## 🛠️ Workspace Layout Breakdown
 
----
+The workspace is split into an efficient, 3-column layout designed for rapid context switching:
 
-## 🛠️ Interface Breakdown
-
-The workspace is split into a highly efficient, 3-column layout:
-* **Left Panel (Explorer):** Dynamically indexes all `.md` files in your configured vault. Includes global actions to open local folders natively or launch the Python AI background server via Command Prompt.
-* **Center Panel (Workspace):** A clean Markdown workspace displaying note titles, text content previewing, and a dedicated action bar to read, update, or permanently delete files.
-* **Right Panel (AI & Control):** Houses the semantic "Ask Vault" query stream, the live conversational AI response block, and the interactive **Synonyms Editor** for dictionary adjustments.
-
----
+- **Left Panel (Explorer):** Dynamically indexes all `.md` files in your configured vault. Includes global actions to open local folders natively or launch the Python AI background server via Command Prompt.
+- **Center Panel (Workspace):** A clean Markdown workspace displaying note titles, text content previewing, and a dedicated action bar to read, update, or permanently delete files.
+- **Right Panel (AI & Control):** Houses the semantic "Ask Vault" query stream, the live conversational AI response block, and the interactive Synonyms Editor for dictionary adjustments.
 
 ## ⚙️ Installation & Environment Setup
 
 ### Prerequisites
-* **Node.js** (v16+ recommended)
-* **Python 3.8+**
-* **LM Studio** (configured to run its local server on port `1234` with an active LLM loaded)
+- Node.js (v16+ recommended)
+- Python 3.8+
+- LM Studio
 
-### 1. Backend Dependencies Installation
-Open your terminal/command prompt and install the required machine learning and Windows integration packages:
+> 💡 **Resource-Constrained Systems:** If you are running Mycelium on a laptop with limited RAM, it is highly recommended to load the lightweight `Qwen2.5-0.5B-Instruct-Q4_K_M.gguf` model inside LM Studio and ensure its local server is active on `http://localhost:1234`.
 
+### 1. Backend Dependencies Setup
+
+Open your terminal or command prompt and install the required machine learning and Windows integration packages:
+
+```bash
 pip install flask flask-cors sentence-transformers openai pywin32
+```
 
-⚠️ Configuration Note: Open server_v4.py and ensure MODEL_PATH points to your local model directory and VAULT_FOLDER points to your active notes path.
+⚠️ **Configuration Note:** Open `server_v4.py` before launching and verify that `MODEL_PATH` points to your local model directory and `VAULT_FOLDER` points to your active notes path.
 
 ### 2. Frontend Dependencies & Build
-Navigate to your project root folder and install your node modules:
 
-# Install dependencies
+Navigate to your project root folder to install the required Node modules and compile your production assets:
+
+```bash
+# Install node modules
 npm install
 
-# Compile your frontend source assets into the distribution folder
+# Compile frontend source assets into the distribution folder
 npm run build
+```
 
 ## 🏃‍♂️ Running the Application
 
-## Make sure LM Studio's local server is running on http://localhost:1234.
-## load Qwen2.5-0.5b-instruct Q4_K_M.gguf model ( i use this model for limited RAM laptop )
+Follow these steps to spin up your local instance:
 
+**Start the Backend Engine:** Launch your Python Flask server to initialize your embeddings and SAPI layers:
 
-## Launch the Python Flask server:
+```bash
 python server_v4.py
+```
 
-## Start the Electron desktop client:
+**Launch the Desktop UI:** In a separate terminal window, initiate the Electron application shell:
+
+```bash
 npm start
-
+```
 
 ## 🔄 Local API Reference (Flask Backend)
-1. Semantic Search
-Endpoint: POST /search
 
-Payload: {"query": "your search term"}
+### 1. Semantic Search
 
-Returns: A ranked list of filenames matched with their similarity coefficients.
+**Endpoint:** `POST /search`
 
-2. Ask Vault (AI Chat + TTS)
-Endpoint: POST /ask-vault
+**Payload:**
+```json
+{ "query": "your search term" }
+```
 
-Payload: {"query": "your question here"}
+**Returns:** A ranked array of local filenames paired with their corresponding mathematical cosine similarity coefficients.
 
-Returns: {"answer": "AI generated string response"} (Also triggers local audio narration via system hardware).
+### 2. Ask Vault (AI Chat + TTS)
+
+**Endpoint:** `POST /ask-vault`
+
+**Payload:**
+```json
+{ "query": "your question here" }
+```
+
+**Returns:**
+```json
+{ "answer": "AI generated string response" }
+```
+
+**Note:** Triggering this endpoint automatically executes local audio narration via native system hardware audio channels.
 
 
----
+## 📄 License
 
-📄 License
-MIT License
+Mycelium is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
 
-💬 Author
+This means you are free to:
+
+- Use the software
+- Study the source code
+- Modify the software
+- Share the software
+
+If you distribute modified versions or provide Mycelium as a network service,
+you must also make the complete corresponding source code available under the
+same AGPL-3.0 license.
+
+See the LICENSE file for details.
+
+## 💬 Author
+
 Made with curiosity and perseverance by Junrey Paracuelles 🌱

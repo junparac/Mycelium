@@ -1,3 +1,17 @@
+/*
+ * Mycelium
+ * Copyright (C) 2026 Junrey Paracuelles
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published
+ * by the Free Software Foundation, either version 3 of the License,
+ * or (at your option) any later version.
+ *
+ * This program is distributed WITHOUT ANY WARRANTY.
+ * See the LICENSE file for details.
+ */
+
+
 import React, { useState, useEffect, useRef  } from 'react';
 import './styles.css';
 import GraphView from './GraphView';
